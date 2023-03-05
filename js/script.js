@@ -40,3 +40,25 @@ if(playerInput == '1'){
 }
 
 printMessage('Twój ruch to: ' + playerMove);
+
+if(computerMove == 'papier' && playerMove == 'papier'){
+	printMessage('Remis! Spróbuj ponownie!');
+}else if(computerMove == 'papier' && playerMove == 'nożyce'){
+	printMessage('Gratulacje! Wygrywasz!');
+}else if(computerMove == 'papier' && playerMove == 'kamień'){
+	printMessage('Przykro mi! Przegrałeś!');
+}else if(computerMove == 'kamień' && playerMove == 'kamień'){
+	printMessage('Remis! Spróbuj ponownie!');
+}else if(computerMove == 'kamień' && playerMove == 'papier'){
+	printMessage('Gratulacje! Wygrywasz!');
+}else if(computerMove == 'kamień' && playerMove == 'nożyce'){
+	printMessage('Przykro mi! Przegrałeś!');
+}else if(computerMove == 'nożyce' && playerMove == 'nożyce'){
+	printMessage('Remis! Spróbuj ponownie!');
+}else if(computerMove == 'nożyce' && playerMove == 'papier'){
+	printMessage('Przykro mi! Przegrałeś!');
+}else if(computerMove == 'nożyce' && playerMove == 'kamień'){
+	printMessage('Gratulacje! Wygrywasz!');
+}else{
+	printMessage('Chyba nie wybrałeś właściwej liczby!');
+}
