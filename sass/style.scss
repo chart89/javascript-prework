@@ -1,0 +1,43 @@
+/* Variables */
+$title-color: 'Climate Crisis', cursive;
+$buttons-text: 'Rubik Iso', cursive;
+$transition: 1s all;
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: $title-color;
+    color: #B22222;
+    font-size: 60px;
+}
+
+button {
+    margin: 10px 20px;
+    width: 160px;
+    padding: 16px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    border-width: 3px;
+    border-style: solid;
+    font-family: $title-color;
+    color: #FF6347;
+    
+    transition: $transition;
+}
+
+button:hover {
+    transform: scale(1.2);
+    color: #000000;
+}
+
+.display-message {
+    font-family: $buttons-text;
+    color: #FF6347;
+    font-size: 30px;
+}

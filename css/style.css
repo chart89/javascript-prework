@@ -1,3 +1,40 @@
+/* Variables */
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  text-align: center;
+}
 
+h1 {
+  font-family: "Climate Crisis", cursive;
+  color: #B22222;
+  font-size: 60px;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+button {
+  margin: 10px 20px;
+  width: 160px;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  border-width: 3px;
+  border-style: solid;
+  font-family: "Climate Crisis", cursive;
+  color: #FF6347;
+  transition: 1s all;
+}
+
+button:hover {
+  transform: scale(1.2);
+  color: #000000;
+}
+
+.display-message {
+  font-family: "Rubik Iso", cursive;
+  color: #FF6347;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBS0E7RUFDSSxpQkFBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7QUNISjs7QURNQTtFQUNJLHNDQVhVO0VBWVYsY0FBQTtFQUNBLGVBQUE7QUNISjs7QURNQTtFQUNJLGlCQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxpQkFBQTtFQUNBLG1CQUFBO0VBQ0Esc0NBMUJVO0VBMkJWLGNBQUE7RUFFQSxrQkEzQlM7QUN1QmI7O0FET0E7RUFDSSxxQkFBQTtFQUNBLGNBQUE7QUNKSjs7QURPQTtFQUNJLGlDQXJDVztFQXNDWCxjQUFBO0VBQ0EsZUFBQTtBQ0pKIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */

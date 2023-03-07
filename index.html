@@ -3,16 +3,29 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Kamień, papier, nożyce</title>
+	<link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
 	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<div class="container">
-		<div id="buttons">
-			<button id="play-rock">Kamień</button>
-			<button id="play-scissors">Nożyce</button>
-			<button id="play-paper">Papier</button>
+		<div class="container">
+			<div class="title">
+				<h1>Zagrajmy!</h1>
+			</div>
 		</div>
-		<div id="messages"></div>
+		<div class="container">
+			<div id="buttons">
+				<button type="button" id="play-rock">Kamień</button>
+				<button type="button" id="play-scissors">Nożyce</button>
+				<button type="button" id="play-paper">Papier</button>
+			</div>
+		</div>
+		<div class="container">
+			<div class="display-message" id="messages"></div>
+		</div>
 	</div>
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>
