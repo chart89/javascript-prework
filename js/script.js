@@ -52,7 +52,6 @@ function playGame(argplayerChoice){
 
 	let playerMove = getMoveName(playerInput);
 
-	
 	argPlayerMove = getMoveName(playerInput);
 	argComputerMove = getMoveName(randomNumber);
 	displayResult(argComputerMove, argPlayerMove);
